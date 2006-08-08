@@ -1,0 +1,119 @@
+perl-XML-LibXML
+-------------------------------------------
+This module implements a Perl interface to the Gnome libxml2 library.
+
+Runtime requirements:
+  cygwin-1.5.21-1
+  libxml2-2.6.26-1
+  perl-5.8.7-5
+  perl-XML-NamespaceSupport-1.08-1
+  perl-XML-LibXML-Common-0.13-1
+  perl-XML-SAX-0.12-1
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.21-1
+  binutils-20060709-1
+  cygport-0.2.5-1
+  gcc-core-3.4.4-1
+  make-3.81-1
+
+Canonical homepage:
+  http://search.cpan.org/dist/XML-LibXML/
+
+Canonical download:
+  http://www.cpan.org/module/by-module/XML/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-XML-LibXML-1.59-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-XML-LibXML-1.59-X.cygport all
+
+This will create:
+  /usr/src/perl-XML-LibXML-1.59-X-src.tar.bz2
+  /usr/src/perl-XML-LibXML-1.59-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-XML-LibXML.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Attr.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Boolean.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/CDATASection.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Comment.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/DOM.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Document.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/DocumentFragment.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Dtd.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Element.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/InputCallback.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Literal.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Namespace.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Node.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/NodeList.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Number.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/PI.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Parser.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/RelaxNG.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/SAX.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/SAX.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/SAX/Builder.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/SAX/Builder.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/SAX/Generator.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/SAX/Parser.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Schema.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Text.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXML/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXML/LibXML.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXML/LibXML.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXML/libLibXML.dll.a
+  /usr/share/doc/Cygwin/perl-XML-LibXML-1.59.README
+  /usr/share/doc/perl-XML-LibXML-1.59/Changes
+  /usr/share/doc/perl-XML-LibXML-1.59/LICENSE
+  /usr/share/doc/perl-XML-LibXML-1.59/README
+  /usr/share/man/man3/XML.LibXML.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Attr.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Boolean.3pm.gz
+  /usr/share/man/man3/XML.LibXML.CDATASection.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Comment.3pm.gz
+  /usr/share/man/man3/XML.LibXML.DOM.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Document.3pm.gz
+  /usr/share/man/man3/XML.LibXML.DocumentFragment.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Dtd.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Element.3pm.gz
+  /usr/share/man/man3/XML.LibXML.InputCallback.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Literal.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Namespace.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Node.3pm.gz
+  /usr/share/man/man3/XML.LibXML.NodeList.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Number.3pm.gz
+  /usr/share/man/man3/XML.LibXML.PI.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Parser.3pm.gz
+  /usr/share/man/man3/XML.LibXML.RelaxNG.3pm.gz
+  /usr/share/man/man3/XML.LibXML.SAX.3pm.gz
+  /usr/share/man/man3/XML.LibXML.SAX.Builder.3pm.gz
+  /usr/share/man/man3/XML.LibXML.SAX.Generator.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Schema.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Text.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/XML-LibXML.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.59-1 -----
+Version bump.
+
+----- version 1.58-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
