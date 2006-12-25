@@ -3,7 +3,7 @@ perl-XML-LibXML
 This module implements a Perl interface to the Gnome libxml2 library.
 
 Runtime requirements:
-  cygwin-1.5.21-2
+  cygwin-1.5.23-2
   libxml2-2.6.26-1
   perl-5.8.7-5
   perl-XML-NamespaceSupport-1.08-1
@@ -12,30 +12,30 @@ Runtime requirements:
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.21-2
+  cygwin-1.5.23-2
   binutils-20060817-1
-  cygport-0.2.6-1
-  gcc-core-3.4.4-1
+  cygport-0.2.7-1
+  gcc-core-3.4.4-3
   make-3.81-1
 
 Canonical homepage:
-  http://search.cpan.org/dist/XML-LibXML/
+  http://search.cpan.org/~pajas/XML-LibXML/
 
 Canonical download:
-  http://www.cpan.org/module/by-module/XML/
+  http://search.cpan.org/CPAN/authors/id/P/PA/PAJAS/
 
 -------------------------------------------
 
 Build instructions:
-  unpack perl-XML-LibXML-1.61003-X-src.tar.bz2
+  unpack perl-XML-LibXML-1.62001-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-XML-LibXML-1.61003-X.cygport all
+  cygport ./perl-XML-LibXML-1.62001-X.cygport all
 
 This will create:
-  /usr/src/perl-XML-LibXML-1.61003-X-src.tar.bz2
-  /usr/src/perl-XML-LibXML-1.61003-X.tar.bz2
+  /usr/src/perl-XML-LibXML-1.62001-X-src.tar.bz2
+  /usr/src/perl-XML-LibXML-1.62001-X.tar.bz2
 
 -------------------------------------------
 
@@ -61,6 +61,8 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Number.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/PI.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Parser.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Reader.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/Reader.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/RelaxNG.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/SAX.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/XML/LibXML/SAX.pod
@@ -76,10 +78,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXML/LibXML.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXML/LibXML.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXML/libLibXML.dll.a
-  /usr/share/doc/Cygwin/perl-XML-LibXML-1.61003.README
-  /usr/share/doc/perl-XML-LibXML-1.61003/Changes
-  /usr/share/doc/perl-XML-LibXML-1.61003/LICENSE
-  /usr/share/doc/perl-XML-LibXML-1.61003/README
+  /usr/share/doc/Cygwin/perl-XML-LibXML-1.62001.README
+  /usr/share/doc/perl-XML-LibXML-1.62001/Changes
+  /usr/share/doc/perl-XML-LibXML-1.62001/LICENSE
+  /usr/share/doc/perl-XML-LibXML-1.62001/README
   /usr/share/man/man3/XML.LibXML.3pm.gz
   /usr/share/man/man3/XML.LibXML.Attr.3pm.gz
   /usr/share/man/man3/XML.LibXML.Boolean.3pm.gz
@@ -98,6 +100,7 @@ Files included in the binary package:
   /usr/share/man/man3/XML.LibXML.Number.3pm.gz
   /usr/share/man/man3/XML.LibXML.PI.3pm.gz
   /usr/share/man/man3/XML.LibXML.Parser.3pm.gz
+  /usr/share/man/man3/XML.LibXML.Reader.3pm.gz
   /usr/share/man/man3/XML.LibXML.RelaxNG.3pm.gz
   /usr/share/man/man3/XML.LibXML.SAX.3pm.gz
   /usr/share/man/man3/XML.LibXML.SAX.Builder.3pm.gz
@@ -110,6 +113,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.62001-1 -----
+Version bump.
 
 ----- version 1.61003-1 -----
 Version bump.
