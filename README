@@ -3,8 +3,8 @@ perl-XML-LibXML
 This module implements a Perl interface to the Gnome libxml2 library.
 
 Runtime requirements:
-  cygwin-1.5.23-2
-  libxml2-2.6.26-1
+  cygwin-1.5.24-2
+  libxml2-2.6.27-1
   perl-5.8.7-5
   perl-XML-NamespaceSupport-1.08-1
   perl-XML-LibXML-Common-0.13-1
@@ -12,9 +12,9 @@ Runtime requirements:
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.7-1
+  cygport-0.2.11-1
   gcc-core-3.4.4-3
   make-3.81-1
 
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-XML-LibXML-1.62001-X-src.tar.bz2
+  unpack perl-XML-LibXML-1.63-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-XML-LibXML-1.62001-X.cygport all
+  cygport ./perl-XML-LibXML-1.63-X.cygport all
 
 This will create:
-  /usr/src/perl-XML-LibXML-1.62001-X-src.tar.bz2
-  /usr/src/perl-XML-LibXML-1.62001-X.tar.bz2
+  /usr/src/perl-XML-LibXML-1.63-X-src.tar.bz2
+  /usr/src/perl-XML-LibXML-1.63-X.tar.bz2
 
 -------------------------------------------
 
@@ -78,10 +78,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXML/LibXML.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXML/LibXML.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/LibXML/libLibXML.dll.a
-  /usr/share/doc/Cygwin/perl-XML-LibXML-1.62001.README
-  /usr/share/doc/perl-XML-LibXML-1.62001/Changes
-  /usr/share/doc/perl-XML-LibXML-1.62001/LICENSE
-  /usr/share/doc/perl-XML-LibXML-1.62001/README
+  /usr/share/doc/Cygwin/perl-XML-LibXML-1.63.README
+  /usr/share/doc/perl-XML-LibXML-1.63/Changes
+  /usr/share/doc/perl-XML-LibXML-1.63/LICENSE
+  /usr/share/doc/perl-XML-LibXML-1.63/README
   /usr/share/man/man3/XML.LibXML.3pm.gz
   /usr/share/man/man3/XML.LibXML.Attr.3pm.gz
   /usr/share/man/man3/XML.LibXML.Boolean.3pm.gz
@@ -113,6 +113,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.63-1 -----
+Version bump.
 
 ----- version 1.62001-1 -----
 Version bump.
