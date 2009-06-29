@@ -1,4 +1,4 @@
 category: Perl
-requires: cygwin libxml2 perl perl-XML-NamespaceSupport perl-XML-LibXML-Common perl-XML-SAX
+requires: libxml2 perl perl-XML-NamespaceSupport perl-XML-LibXML-Common perl-XML-SAX
 sdesc: "Perl libxml2 bindings"
 ldesc: "Perl libxml2 bindings"
