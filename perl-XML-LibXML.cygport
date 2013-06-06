@@ -1,0 +1,19 @@
+CPAN_AUTHOR=shlomif
+inherit perl
+
+NAME="perl-XML-LibXML"
+VERSION=2.0018
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl libxml2 bindings"
+DESCRIPTION="This module implements a Perl interface to the GNOME libxml2
+library which provides interfaces for parsing and manipulating XML files. This
+module allows Perl programmers to make use of the highly capable validating XML
+parser and the high performance DOM implementation."
+
+src_install() {
+	cd ${B}
+	perl_install
+	perl_postinst
+	perl_sax_parser_register XML::LibXML::SAX::Parser XML::LibXML::SAX
+}
